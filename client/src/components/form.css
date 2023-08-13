@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+ 
+body {
+    margin: 0;
+    font-family:'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 15px;
+    color: #b9b9b9;
+    background-color: #e3e3e3;
+}
+  
+code {
+font-family:  'Courier New', monospace;
+}
+
+h2, h6 {
+    color: #f0a500;
+    font-family:'Borel', cursive;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+h6{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.form-check-label {
+    color: #f0a500;
+}
+
+div.container{
+    max-width: 50%;
+    margin-top: 7%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    padding: 1em 3em 2em 3em;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width:90%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 5%;
+}
+
+input,
+input[type="radio"] + label,
+input[type="checkbox"] + label:before,
+select option,
+select {
+    width: 100%;
+    padding: 1em;
+    line-height: 1.4;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    -webkit-transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+input:focus {
+    outline: 0;
+    border-color: #bd8200;
+}
+
+input[type="text"]{
+    height: 3.4em;
+    line-height: 2;
+    display: inline-block;
+    width: 100%;
+    border-radius: 0;
+}
+
+input[type="date"]{
+    height: 3.4em;
+    line-height: 2;
+    display: inline-block;
+    width: 100%;
+    border-radius: 0;
+}
+
+input[type="date"]:active{
+    outline: 0;
+    border-color: #bd8200;
+}
+
+input[type="text"]:active{
+    outline: 0;
+    border-color: #bd8200;
+}
+
+select {
+    height: 3.4em;
+    line-height: 2;
+    display: inline-block;
+    width: 100%;
+    border-radius: 0;
+}
+
+select:first-of-type {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+select:last-of-type {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+select:focus,
+select:active {
+    outline: 0;
+    border-color: #bd8200;
+}
+
+select option {
+    background-color: #e9b23c;
+    color: #fffffff6;
+}
+
+input[type="submit"]{
+    background-color: #f0a500;
+    color: #fff;
+    border-color: #bd8200;
+    transition: transform .2s;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:medium;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.04);
+    background-color: #bd8200;
+    color: #fff;
+    border-color: #bd8200;
+    border-radius: 100px;
+}
