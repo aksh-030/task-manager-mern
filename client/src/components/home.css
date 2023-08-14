@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Borel&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Handlee&family=Open+Sans&display=swap');
 
 *{
     box-sizing: border-box;
@@ -44,7 +44,7 @@ thead{
 
 th{
     color: #bd8200;
-    font-family:'Borel', cursive;
+    font-family: 'Handlee', cursive;
     padding-top: 15px;
     font-weight: 600;
     font-size: 17px;
