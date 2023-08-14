@@ -48,6 +48,7 @@ th{
     padding-top: 15px;
     font-weight: 600;
     font-size: 17px;
+    background-color: #ffffff;
 }
 
 th.tt{
@@ -73,6 +74,10 @@ th.ac{
 tr{
     height: 50px;
     border-color: #bd8200;
+}
+
+tr:hover{
+    background-color: #e3e3e3;
 }
 
 td{
