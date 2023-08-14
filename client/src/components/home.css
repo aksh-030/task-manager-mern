@@ -76,7 +76,7 @@ tr{
     border-color: #bd8200;
 }
 
-tr:hover{
+.task-rows:hover{
     background-color: #e3e3e3;
 }
 
